@@ -4,8 +4,9 @@
  * @return {number}
  */
 var removeElement = function(nums, val) {
-    for (i=0;i<nums.length;i++){
-       if(i > nums.length - 1) {
+    let l = nums.length
+    for (i=0;i<l;i++){
+       if(i > l - 1) {
         break;
     }
     
